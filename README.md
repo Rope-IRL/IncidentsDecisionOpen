@@ -1,3 +1,5 @@
+# Additional Information
+[Restructured into microservices backend](https://github.com/Rope-IRL/IncidentsDecisionMicroservices)
 # Project Description
 This project is a web-based application designed to streamline the reporting and handling of workplace incidents. Employees can log incidents through a dedicated interface, providing relevant details for each occurrence. A specialized Tech Support role is available to manage these reports — including the ability to edit, delete, and mark incidents as resolved.
 
