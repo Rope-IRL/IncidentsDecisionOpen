@@ -1,0 +1,52 @@
+.special_character{
+    color:red;
+}
+
+.profile_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap:48px;
+    flex:1;
+    overflow: hidden;
+    padding-top:8%;
+    padding-inline: 500px;
+}
+
+.profile_wrapper-header{
+    text-align: center;
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+
+.profile_wrapper-info{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.profile_wrapper-info-property{
+    display: flex;
+    flex-direction: row;
+    gap:16px;
+    font-size: 2rem;
+}
+
+.property_name{
+    padding:12px;
+    background-color: rgb(43, 43, 43);
+    border-radius: 8px 0px 0px 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.property_content{
+    padding:12px;
+    background-color: rgb(43, 43, 43);
+    border-radius: 0px 8px 8px 0px;
+    flex:1;
+    overflow-y: hidden;
+    overflow-x: auto;
+}

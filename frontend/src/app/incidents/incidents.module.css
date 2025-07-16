@@ -1,0 +1,89 @@
+.incidents_wrapper{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+    padding-top:10%;
+    overflow: auto;
+    padding-inline: 24%;
+}
+
+.incidents_wrapper-header{
+    text-align: center;
+    font-size: 3.2rem;
+}
+
+.incidents_wrapper-incident_types{
+    display: flex;
+    flex-direction: row;
+    gap:8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.incidents_type{
+    border:none;
+    background-color: black;
+    color:white;
+    padding:8px;
+    font-size: 1.6rem;
+    transition-duration: 0.4s;
+}
+
+.incidents_type:hover{
+    cursor: pointer;
+}
+
+.incidents_type-active{
+    border:none;
+    color:white;
+    padding:8px;
+    font-size: 1.6rem;
+    background-color: #1d1d1d;
+    transition-duration: 0.4s;
+    border-radius: 8px;
+}
+
+.incidents_type-active:hover{
+    cursor:pointer;
+}
+
+.special_character{
+    color:red;
+}
+
+.incidents_container-content{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.add_btn_wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.add_btn_container{
+    padding:12px;
+    background-color: black;
+    color:white;
+    border:none;
+    display: flex;
+    flex-direction: row;
+    gap:8px;
+    font-size: 1.4rem;
+   justify-content: end; 
+   border-radius: 24px;
+}
+
+.add_btn_container:hover{
+    cursor:pointer;
+    background-color:#1d1d1d; 
+}
+
+.error_wrapper{
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
